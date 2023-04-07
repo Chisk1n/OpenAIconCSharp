@@ -6,6 +6,7 @@ Requisitos
 
     .NET 5 o superior.
     Una API Key de OpenAI.
+    Visual Studio (opcional para la compilación y ejecución).
 
 Instalación
 
@@ -21,6 +22,7 @@ csharp
 string apiKey = "Tu-ApiKey-de-OpenAI";
 
 Ejecución
+Opción 1: Usando la terminal
 
     Abra una terminal y navegue hasta el directorio del proyecto.
     Ejecute el siguiente comando para compilar y ejecutar la aplicación:
@@ -29,6 +31,13 @@ arduino
 
 dotnet run
 
+    La aplicación realizará una solicitud a la API de OpenAI con el mensaje de usuario y mostrará la respuesta en la consola.
+
+Opción 2: Usando Visual Studio
+
+    Abra el proyecto en Visual Studio.
+    Asegúrese de que el proyecto esté configurado como proyecto de inicio.
+    Presione F5 o haga clic en Debug > Start Debugging para compilar y ejecutar la aplicación.
     La aplicación realizará una solicitud a la API de OpenAI con el mensaje de usuario y mostrará la respuesta en la consola.
 
 Código
