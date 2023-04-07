@@ -17,7 +17,6 @@ Configuración
 
     Reemplace la variable apiKey en el código con su propia API Key de OpenAI:
 
-csharp
 
 string apiKey = "Tu-ApiKey-de-OpenAI";
 
@@ -27,7 +26,6 @@ Opción 1: Usando la terminal
     Abra una terminal y navegue hasta el directorio del proyecto.
     Ejecute el siguiente comando para compilar y ejecutar la aplicación:
 
-arduino
 
 dotnet run
 
